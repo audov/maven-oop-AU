@@ -1,7 +1,7 @@
 package ru.netology.javaqa.mvnoop0AU;
 
 public class Radio {
-    public int currentStation;
+    private int currentStation;
 
     public int getCurrentStation() {
         return currentStation;
@@ -17,7 +17,7 @@ public class Radio {
         currentStation = newCurrentStation;
     }
 
-    public int currentSound;
+    private int currentSound;
 
     public int getCurrentSound() {
         return currentSound;
