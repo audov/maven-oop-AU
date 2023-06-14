@@ -1,32 +1,46 @@
-public class Radio {
+/*
+package ru.netology.javaqa.mvnoopAU;
+
+public class RadioFlex {
+    public int StationQty;
+    public int StationMin;
+    public int StationMax;
     public int currentStation;
     public int currentSound;
 
+    public void Station(int a, int b, int c) {
+        StationQty = a;
+        StationMin = b;
+        StationMax = c;
+    }
+
+    public void Station() {
+        StationQty = 10;
+        StationMax = 9;
+        StationMin = 0;
+    }
+
     public void setNewStation(int newStation) {
 
-        if (newStation <= 9) {
-            if (newStation >= 0) {
+        if (newStation <= StationMax) {
+            if (newStation >= StationMin) {
                 currentStation = newStation;
             }
         }
     }
 
     public void switchNextStation() {
-
-        if (currentStation == 9) {
-            currentStation = 0;
-        } else {
+        if (currentStation == StationMax) {
+            currentStation = StationMin;
+        } else
             currentStation = currentStation + 1;
-        }
     }
 
     public void switchPrevStation() {
-
-        if (currentStation == 0) {
-            currentStation = 9;
+        if (currentStation == StationMin) {
+            currentStation = StationMax;
         } else {
             currentStation = currentStation - 1;
-            //break;
         }
     }
 
@@ -56,4 +70,4 @@ public class Radio {
             currentSound = currentSound - 1;
         }
     }
-}
+}*/
