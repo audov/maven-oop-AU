@@ -1,4 +1,4 @@
-package ru.netology.javaqa.mvnoopAU;
+package ru.netology.javaqa.mvnoop1AU;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

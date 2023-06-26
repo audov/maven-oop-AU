@@ -1,5 +1,5 @@
-package ru.netology.javaqa.mvnoopAU;
 
+package ru.netology.javaqa.mvnoop1AU;
 public class RadioFlex {
     private int currentStationQty;
     private int currentStation;
